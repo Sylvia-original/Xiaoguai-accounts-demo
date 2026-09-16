@@ -24,8 +24,6 @@
 
 ## Demo 說明
 
-此 GitHub 版本為 **Portfolio / Demo Version**。
-
 Demo 版本已移除或替換以下內容：
 
 - 真實家庭成員姓名
@@ -37,9 +35,9 @@ Demo 版本已移除或替換以下內容：
 - API Secret
 - 其他正式環境憑證與私人資料
 
-畫面中的人物、金額與交易內容皆應視為 **Mock Data / 示範資料**。
+畫面中的人物、金額與交易內容皆為 **Mock Data / 示範資料**。
 
-> ⚠️ 本 Repository 不建議直接作為正式帳務系統使用。
+> ⚠️ 本 Demo 不做為正式帳務系統使用。
 
 ---
 
@@ -162,7 +160,7 @@ Demo 版本已移除或替換以下內容：
 
 並可使用 LIFF 在 LINE App 內直接操作 Web 介面。
 
-> Demo Repository 不包含正式 LIFF ID 與 LINE 憑證。
+> Demo 不包含正式 LIFF ID 與 LINE 憑證。
 
 ---
 
@@ -211,14 +209,14 @@ Google Sheets
 
 ## 專案重點
 
-這個專案不是單純的「記帳畫面」，而是針對真實家庭帳務流程所做的系統化設計。
+這個專案不是單純的「記帳」，而是針對真實家庭帳務流程所做的系統化設計。
 
 主要思考包含：
 
 - 如何把聊天語句轉成結構化帳務資料
 - 如何區分「本人消費」與「替別人代墊」
 - 如何正確處理欠款與還款方向
-- 如何保存原始輸入，方便後續稽核與修改
+- 如何保存原始輸入，方便後續查核與修改
 - 如何讓桌面版與手機版共用同一套資料邏輯
 - 如何將 LINE、Web 與 Google Sheets 串成同一個流程
 
@@ -226,7 +224,7 @@ Google Sheets
 
 ## 隱私與安全
 
-本 Repository 為公開展示版本，因此遵循以下原則：
+Demo Repository 為公開展示版本，因此遵循以下原則：
 
 ```text
 Never commit:
@@ -269,7 +267,7 @@ Never commit:
 
 ## 執行 Demo
 
-如果此版本為純前端 Demo，可直接：
+此版本為純前端 Demo，可直接：
 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
@@ -289,59 +287,13 @@ index.html
 ## Live Demo
 
 👉 **Demo 網址：**  
-`請在此放入 GitHub Pages / Cloudflare Demo URL`
-
----
-
-## Screenshots
-
-建議在 Repository 建立：
-
-```text
-/screenshots
-```
-
-並放入 3～5 張代表畫面，例如：
-
-1. 一般記帳
-2. 多人拆帳
-3. 記帳明細
-4. 結果計算
-5. LINE Rich Menu
-
-README 可再補上：
-
-```md
-![一般記帳](./screenshots/general-entry.png)
-![記帳明細](./screenshots/records.png)
-![結果計算](./screenshots/results.png)
-```
-
----
-
-## 後續優化方向
-
-- 強化 LINE LIFF 行動版操作體驗
-- 優化自然語言記帳解析
-- 增加更多支出分析圖表
-- 強化編輯／刪除後的資料一致性
-- 持續改善家庭債務與結算流程
-
----
-
-## Project Context
-
-此專案為個人作品集的一部分，重點不是展示大型框架，而是展示：
-
-**如何從實際使用痛點出發，拆解流程、定義規則，再透過 Web、API 與自動化工具完成可實際操作的系統。**
+`https://sylvia-original.github.io/Xiaoguai-accounts-demo/`
 
 ---
 
 ## Author
 
 **Sylvia**
-
-Digital Transformation｜Business Process Automation｜Workflow Optimization
 
 ---
 
