@@ -224,7 +224,7 @@ Google Sheets
 
 ## 隱私與安全
 
-Demo Repository 為公開展示版本，因此遵循以下原則：
+Demo Repository 為公開展示版本，遵循以下原則：
 
 ```text
 Never commit:
@@ -234,16 +234,10 @@ Never commit:
 - Spreadsheet IDs
 - Admin Secrets
 - Personal transaction data
-- Real family member information
+- member information
 ```
 
-正式環境中的敏感參數應使用：
-
-- Environment Variables
-- Cloudflare Secrets
-- Google Apps Script Properties
-
-而不是直接寫入前端程式碼或公開 Repository。
+正式環境中的敏感參數不直接寫入前端程式碼或公開 Repository。
 
 ---
 
