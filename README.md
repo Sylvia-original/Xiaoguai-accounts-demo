@@ -246,25 +246,6 @@ Demo Repository 為公開展示版本，不含任何隱私資訊。
 
 ---
 
-## 執行 Demo
-
-此版本為純前端 Demo，可直接：
-
-```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_FOLDER>
-```
-
-接著直接開啟：
-
-```text
-index.html
-```
-
-或使用 VS Code Live Server / GitHub Pages 執行。
-
----
-
 ## Live Demo
 
 👉 **Demo 網址：**  
@@ -281,5 +262,3 @@ index.html
 ## License / Usage
 
 本專案主要作為個人作品集與技術展示使用。
-
-Demo 程式碼可供學習與參考；如需使用於正式環境，請自行補齊身份驗證、權限控管、資料庫與資訊安全機制。
