@@ -224,20 +224,7 @@ Google Sheets
 
 ## 隱私與安全
 
-Demo Repository 為公開展示版本，遵循以下原則：
-
-```text
-Never commit:
-- API Keys
-- Access Tokens
-- Channel Secrets
-- Spreadsheet IDs
-- Admin Secrets
-- Personal transaction data
-- member information
-```
-
-正式環境中的敏感參數不直接寫入前端程式碼或公開 Repository。
+Demo Repository 為公開展示版本，不含任何隱私資訊。
 
 ---
 
